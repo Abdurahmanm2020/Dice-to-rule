@@ -1,0 +1,88 @@
+
+.background {
+
+}
+
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dicee {
+	size: 127%;
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+	color:#FFF;
+	background-image:url(../images/background-2.png);
+	text-align:center;
+	/*background-color:#C0C0C0;*/
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Berlin Sans FB', cursive;
+  text-shadow: 4px 0 #00E8E8;
+ font-size: 5rem;
+  color:#AEFFFF;
+}
+
+p {
+  font-size: 2rem;
+  color: #80FFFF;
+  font-family: 'Calibri', cursive;
+}
+
+img {
+	text-shadow: 7px 0 #000;
+  width: 80%;
+}
+
+.role{
+	color:#004080;
+	background-color:#AEFFFF;
+	padding: 0% 0% 0%;
+	font-family: 'Century Gothic' ;
+	font-size: 3rem;
+	border:none;
+	width: 8%;
+	height:10%;
+}
+
+.back{
+	border:none;
+	background-color:#0000EA;
+	color:#80FFFF;
+	color:#9DFFB6;
+	font-size: 2rem;
+	float:left;
+}
+
+.back:hover{
+	color:#004080;
+	background-color:#AEFFFF;
+
+}
+
+
+
+.role:hover{
+	background-color:#0000EA;
+	color:#80FFFF;
+	width: 25%;
+	height:15%;
+	
+}
+
+footer {
+  margin-top: 5%;
+  color: #000;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}

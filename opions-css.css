@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.body{
+	text-align:center;
+	background-color:#00C400;
+}
+
+
+
+
+
+
+.choos{
+	margin:5% 7% 2%;
+	width: 25%;
+}
+
+.choos2{
+	margin:5% 7% 2%;
+	width: 25%;
+}
+
+h1 {
+	color:#003700;
+	font-family:'Berlin Sans FB';
+	padding: 7% 0% 0% ;
+	text-align:center;
+	font-size: 4rem;
+}
+
+.back{
+	color:#D9FFD9;
+	border:none;
+	background-color:#003700;
+	font-size: 2rem;
+	width: 15%;
+	float:left;
+	left: 50%;
+}
+
+.back:hover{
+	border:#FFF;
+	color:#fff;
+	background-color:#0A0;
+
+}
+
+
+p{
+	color: #006400;
+	font-family:'Berlin Sans FB';
+	text-align:center;
+	font-size: 2rem;
+}

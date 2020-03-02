@@ -1,0 +1,34 @@
+.body {
+	text-decoration:none;
+	text-align:center;
+	background-color:#00C400;
+}
+
+h1 {
+	font-family:'Berlin Sans FB';
+		color:#003700;
+	font-size: 5rem;
+}
+
+p{
+	font-family:'Berlin Sans FB';
+	color: #006400;
+	font-size:3rem;
+}
+
+.back{
+	color:#D9FFD9;
+	border:none;
+	background-color:#003700;
+	font-size: 2rem;
+	width: 15%;
+	float:left;
+	left: 50%;
+}
+
+.back:hover{
+	border:#FFF;
+	color:#fff;
+	background-color:#0A0;
+
+}
