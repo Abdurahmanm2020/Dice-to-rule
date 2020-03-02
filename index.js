@@ -32,4 +32,3 @@ document.querySelectorAll("h1")[0].innerHTML = ("Player 1 WINS!🚩");
 
 
 
-/*document.querySelectorAll.getElimentByid("lname")[0].innerHTML*/
