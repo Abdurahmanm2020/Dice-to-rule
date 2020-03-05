@@ -42,6 +42,12 @@ img {
   width: 80%;
 }
 
+.players:hover{
+	
+	background-color: #024a2657;
+	
+}
+
 
 .players{
 	border: #004a2526;
