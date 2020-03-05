@@ -18,17 +18,94 @@
     <div class="container">
       <h1>Refresh Me</h1>
 
+      /**Form styling finished**/
+
+    <div class="addNames">
+
+         <div class="headline">
+
+         	<h4>Add your player's names:</h4>
+
+         </div>
+
+         <div class="info-box">
+
+          <form action="#" id="myForm" onSubmit="return namePlayers()" method="post">
+
+             <input type="text" name="player1" class="players" id="player1" placeholder="Player 1 Name">
+
+             <input type="text" name="player2" class="players" id="player2" placeholder="Player 2 Name">
+
+             <input id="myBtn" type="submit" value="Roll the dice!"></input>
+
+          </form>
+
+         </div>
+
+     </div>
+
+     <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" onClick="window.location.reload();">&times;</span>
+    <section class="container-fluid">
+
+
+
+    <div class="container">
       <div class="dice">
-        <p>
-    <input type="text" id="lname" name="lastname" placeholder="Player 1.."></p>
-    <!--<p>Player 1</p>-->
+        <p>Player 1</p>
+        <img class="img1" src="dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="dice6.png">
+      </div>
+
+    </div>
+
+</section>
+</div>
+
+</div>
+
+<!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+
+ var modal = document.getElementById("myModal");
+
+ var btn = document.getElementById("myBtn");
+
+
+
+   btn.onclick = function() {
+   modal.style.display = "block";
+ }
+
+
+
+
+</script>
+
+
+      
+      
+      <div class="dice">
+     
+  <p>Player 1</p>
         <img class="img1" src="">
       </div>
 
       <div class="dice">
         <p>
-    <input type="text" id="lname" name="lastname" placeholder="Player 2.."></p>
-    <!--<p>Player 2</p>-->
+    
+  <p>Player 2</p>
         <img class="img2" src="">
       </div>
 
