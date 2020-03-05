@@ -44,6 +44,8 @@ img {
 
 
 .players{
+	border: #004a2526;
+	background-color: #adf9ad17;
 	padding: 1% 1% 1%;
 	border-radius:5%;
 	display: inline-block;
@@ -57,10 +59,14 @@ img {
   margin-bottom: 1.5%;
 }
 
+.start{
+	color: #000;
+}
+
 .role{
 	border-radius:13%;
 	color:#00641A;
-	background-color:#28FF5F;
+	background-color: #024a2657;
 	padding: 0% 0% 0%;
 	font-family: 'Century Gothic' ;
 	font-size: 2rem;
