@@ -44,6 +44,7 @@ img {
 
 
 .players{
+	border-radius:13%;
 	display: inline-block;
 	height: 20%;
 	font-size: 1rem;
@@ -56,6 +57,7 @@ img {
 }
 
 .role{
+	border-radius:13%;
 	color:#00641A;
 	background-color:#28FF5F;
 	padding: 0% 0% 0%;
