@@ -43,6 +43,10 @@ img {
 }
 
 
+.players{
+	taxt-align: center;
+}
+
 .addNames{
   text-align: center;
   margin-bottom: 1.5%;
