@@ -5,9 +5,8 @@ function namePlayers() {
 	var player1 = document.getElementById("player1").value;
 	var player2 = document.getElementById("player2").value;
 
-	var player1 = player1.toUpperCase();
-	var player2 = player2.toUpperCase();
-
+        var player1;
+	var player2;
 	document.querySelectorAll("p")[0].innerHTML = player1;
 	document.querySelectorAll("p")[1].innerHTML = player2;
 
@@ -29,13 +28,13 @@ image1.setAttribute("src", randomDiceImage);
 /*
 document.querySelectorAll("h1")[0].innerHTML = "<img src='" + filename + "'>";*/
 
-if (randomNumber1 > randomNumber2) {
+// if (randomNumber1 > randomNumber2) {
 
-document.querySelectorAll("h1")[0].innerHTML = ("Player 1 WINS!🚩");
+// document.querySelectorAll("h1")[0].innerHTML = ("Player 1 WINS!🚩");
 
 /* document.querySelectorAll("h1")[0].innerHTML = document.getElementById("lname");*/
-} else if (randomNumber2 > randomNumber1) {
-   document.querySelectorAll("h1")[0].innerHTML = ("Player 2 WINS!🚩");
+// } else if (randomNumber2 > randomNumber1) {
+//    document.querySelectorAll("h1")[0].innerHTML = ("Player 2 WINS!🚩");
 } else if (randomNumber2 === randomNumber1){
   document.querySelectorAll("h1")[0].innerHTML = ("Draw 🎌");
 };
