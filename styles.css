@@ -77,7 +77,7 @@ img {
 
 .role{
 	border-radius:13%;
-	color:#00641A;
+	color:#05a52e;
 	background-color: #024a2657;
 	padding: 0% 0% 0%;
 	font-family: 'Century Gothic' ;
@@ -104,10 +104,10 @@ img {
 
 
 .role:hover{
-	background-color:#004812;
-	color:#9DFFB6;
-	width: 25%;
-	height:15%;
+	background-color: #024a2629;
+	color:#05a52e;
+/* 	width: 25%;
+	height:15%; */
 	
 }
 
