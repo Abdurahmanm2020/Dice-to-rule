@@ -13,7 +13,7 @@
 .dice {
 	 
   text-align: center;
-  display: inline-block;
+  display: inline-block!important;
 
 }
 
