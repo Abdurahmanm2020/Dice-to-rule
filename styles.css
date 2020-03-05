@@ -44,6 +44,7 @@ img {
 
 
 .players{
+	font-size: 2rem;
 	taxt-align: center;
 }
 
@@ -57,7 +58,7 @@ img {
 	background-color:#28FF5F;
 	padding: 0% 0% 0%;
 	font-family: 'Century Gothic' ;
-	font-size: 3rem;
+	font-size: 2rem;
 	border:none;
 	width: 10%;
 	height:10%;
