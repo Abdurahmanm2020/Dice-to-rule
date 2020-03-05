@@ -43,16 +43,10 @@ img {
 }
 
 
-#lname{
-/* 	font-size: 1rem; */
-	height:40%;
-	width: 70%;
-	border:none;
-	background-color:#5CB900;
-	color:#000;
-	text-align:center;
+.addNames{
+  text-align: center;
+  margin-bottom: 1.5%;
 }
-
 
 .role{
 	color:#00641A;
