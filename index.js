@@ -22,7 +22,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber2 + ".png";
 
 var image1 = document.querySelectorAll("img")[1];
-🚩
+
 image1.setAttribute("src", randomDiceImage);
  if (randomNumber1 > randomNumber2) {
    document.querySelectorAll("h1")[0].innerHTML = (player1 + " WINS 🚩");
